@@ -1,4 +1,4 @@
-# KEGNA Engineering Group 🌍⚙️
+#KEGNA Engineering Group 🌍⚙️
 
 [![Website](https://img.shields.io/badge/website-live-brightgreen)](https://your-username.github.io/kegna-engineering-website)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
@@ -18,6 +18,7 @@ Official website for **KEGNA Engineering Group** – your trusted partner in imp
 - 📊 **Projects Section** – Highlights completed and ongoing industrial projects
 
 ## 🛠️ Technologies Used
+
 
 - **HTML5** – Semantic structure
 - **CSS3** – Custom properties, Flexbox, Grid, animations
