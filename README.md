@@ -1,4 +1,4 @@
-#KEGNA Engineering Group 🌍⚙️
+# KEGNA Engineering Group 🌍⚙️
 
 [![Website](https://img.shields.io/badge/website-live-brightgreen)](https://your-username.github.io/kegna-engineering-website)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
