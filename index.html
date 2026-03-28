@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>KEGNA engineering group · simple & trusted</title>
+    <!-- Font Awesome 6 (free) for gear icons & marker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-gears">
+        <i class="fas fa-gear floating-gear"></i>
+        <i class="fas fa-gear floating-gear two"></i>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <div class="logo-gear-wrapper">
+                <i class="fas fa-gear gear large spin-slow"></i>
+                <i class="fas fa-gear gear small spin-fast"></i>
+            </div>
+            <div class="brand-text">
+                KEGNA <span>engineering group</span>
+            </div>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <div class="desktop-nav-links">
+            <a data-section="home">Home</a>
+            <a data-section="services">Import/Export</a>
+            <a data-section="projects">Projects</a>
+            <a data-section="contact">Contact</a>
+            <button class="desktop-theme-toggle" id="desktopThemeToggle">
+                <i class="fas fa-moon"></i> <span>Dark</span>
+            </button>
+        </div>
+        
+        <!-- Mobile Hamburger Button -->
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="menu-backdrop" id="menuBackdrop"></div>
+    <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="menu-header">
+            <h3><i class="fas fa-gear"></i> KEGNA</h3>
+            <button class="close-menu" id="closeMenu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="mobile-nav-links">
+            <a data-section="home">🏠 Home</a>
+            <a data-section="services">📦 Import/Export</a>
+            <a data-section="projects">⚙️ Projects</a>
+            <a data-section="contact">📞 Contact</a>
+            <button class="mobile-dark-toggle" id="mobileThemeToggle">
+                <i class="fas fa-moon"></i> Dark Mode
+            </button>
+        </div>
+    </div>
+
+    <!-- hero section (HOME) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1><i class="fa-solid fa-arrow-trend-up"></i> Global trade,<br>simply engineered</h1>
+            <p>KEGNA Engineering Group — your clear path for import, export & industrial solutions. We keep it reliable and straightforward.</p>
+            <button class="cta-btn" id="exploreBtn"><i class="fa-regular fa-handshake"></i> Talk to us</button>
+        </div>
+        <div class="hero-gear-showcase">
+            <i class="fas fa-gear gear spin-slow"></i>
+            <i class="fas fa-gear gear smaller spin-fast"></i>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="services">
+        <h2 class="section-title">⚙️ what we do · import / export</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fas fa-ship"></i>
+                <h3>Import</h3>
+                <p>Industrial components, raw materials – smooth customs, clear paperwork. Global sourcing expertise.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-globe"></i>
+                <h3>Export</h3>
+                <p>Ethiopian goods, machinery parts, global shipping. We handle logistics from documentation to delivery.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-helmet-safety"></i>
+                <h3>Engineering</h3>
+                <p>On‑site supervision, technical support, project coordination. Quality assurance you can trust.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" class="projects-section">
+        <h2 class="section-title"><i class="fas fa-hard-hat"></i> Our projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <i class="fas fa-building"></i>
+                <h3>Industrial Supply</h3>
+                <p>Heavy machinery import for manufacturing plants across East Africa. Completed 8 major deliveries in 2025.</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-truck"></i>
+                <h3>Export Success</h3>
+                <p>Agricultural equipment exported to 15+ countries. Trusted partner for Ethiopian manufacturers.</p>
+            </div>
+            <div class="project-card">
+                <i class="fas fa-wrench"></i>
+                <h3>Engineering Excellence</h3>
+                <p>On-site supervision for 5 major construction projects. Technical consulting for industrial plants.</p>
+            </div>
+        </div>
+        <div style="margin-top: 1.5rem; text-align: center;">
+            <span class="badge-stats"><i class="fas fa-chart-line" style="color: var(--greenish);"></i> 50+ completed · 12 active · 8 upcoming</span>
+        </div>
+    </section>
+
+    <!-- CONTACT section -->
+    <section id="contact" class="map-section">
+        <div class="map-info">
+            <h2><i class="fas fa-map-pin" style="color: var(--greenish);"></i> Our office</h2>
+            <div class="address-box">
+                <p><i class="fas fa-location-dot"></i> <strong>KEGNA HQ</strong> · Bole, Addis Ababa</p>
+                <p><i class="fas fa-road"></i> Bole Medhanealem, Main Street</p>
+                <p style="margin-top:0.8rem;"><i class="fas fa-phone-alt"></i> +251 911 234 567<br>
+                <i class="fas fa-envelope"></i> hello@kegna-eng.com</p>
+            </div>
+            <div class="badge-stats" style="margin-top: 0.5rem;">
+                <i class="fas fa-map-marked-alt" style="color:var(--greenish);"></i> Based in Addis, connected worldwide
+            </div>
+        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.735324562734!2d38.796353!3d8.980605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b850f112a09a5%3A0x23e9f484cf42d77d!2sBole%2C%20Addis%20Ababa!5e0!3m2!1sen!2set!4v1712350000000!5m2!1sen!2set" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <div class="gear-sep">
+        <i class="fas fa-gear"></i>
+        <span><strong>KEGNA</strong> · 2026 · precision driven</span>
+        <i class="fas fa-gear"></i>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <div class="brand-text" style="background: linear-gradient(145deg, #b0e0d0, #b5d6ff); -webkit-background-clip: text;">KEGNA <span>engineering</span></div>
+                <p style="margin-top: 0.5rem; font-size: 0.85rem;">Import · Export · Engineering<br>Since 2010, your trusted partner.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick</h4>
+                <a data-section="services">Import services</a>
+                <a data-section="services">Export docs</a>
+                <a data-section="contact">Contact</a>
+            </div>
+            <div class="footer-links">
+                <h4>Connect</h4>
+                <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="#"><i class="fab fa-twitter"></i> X</a>
+                <a href="#"><i class="fab fa-youtube"></i> Projects</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <i class="fas fa-gear" style="animation: spin 6s linear infinite; display: inline-block;"></i> KEGNA ENGINEERING GROUP © 2026 – all rights reserved – Addis Ababa
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

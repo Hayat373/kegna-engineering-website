@@ -1,0 +1,74 @@
+# KEGNA Engineering Group 🌍⚙️
+
+[![Website](https://img.shields.io/badge/website-live-brightgreen)](https://your-username.github.io/kegna-engineering-website)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Dark Mode](https://img.shields.io/badge/dark%20mode-supported-purple)]()
+
+Official website for **KEGNA Engineering Group** – your trusted partner in import, export, and industrial engineering solutions.
+
+## ✨ Features
+
+- 🎨 **Modern & Clean Design** – Professional layout with greenish and blue color scheme
+- 🌙 **Dark/Light Mode** – Seamless theme switching with saved preferences
+- 📱 **Fully Responsive** – Works perfectly on mobile, tablet, and desktop
+- ⚙️ **Animated Gears** – Engaging logo animation that reflects engineering identity
+- 🗺️ **Google Maps Integration** – Shows company location (Bole, Addis Ababa)
+- 🧭 **Smooth Navigation** – Hamburger menu on mobile with smooth scroll to sections
+- 🎯 **Service Showcase** – Clear presentation of Import, Export, and Engineering services
+- 📊 **Projects Section** – Highlights completed and ongoing industrial projects
+
+## 🛠️ Technologies Used
+
+- **HTML5** – Semantic structure
+- **CSS3** – Custom properties, Flexbox, Grid, animations
+- **JavaScript** – Dark mode toggle, mobile menu, smooth scroll
+- **Font Awesome 6** – Icons and gear animations
+- **Google Maps Embed API** – Location display
+
+## 📁 Project Structure
+Kegna-engineering-website/
+├── index.html # Main website file
+├── style.css # style of the website
+├── script.js 
+└── README.md # Project documentation
+
+
+## 🚀 Live Demo
+
+Visit the live website: 
+
+## 📱 Responsive Breakpoints
+
+| Device | Breakpoint | Layout |
+|--------|------------|--------|
+| Mobile | < 768px | Single column, hamburger menu |
+| Tablet | 768px - 1024px | Two column layout |
+| Desktop | > 1024px | Full width with max-width |
+
+## 🎨 Color Palette
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Greenish | `#2f8f70` | Primary accent, buttons, borders |
+| Blue Deep | `#1d5b8c` | Headings, secondary elements |
+| Light Mint | `#e0f0ea` | Background sections |
+| Dark BG | `#0f1722` | Dark mode background |
+
+## 🌟 Sections
+
+1. **Home** – Hero section with animated gears and call-to-action
+2. **Import/Export Services** – Core business offerings
+3. **Projects** – Showcase of completed industrial projects
+4. **Contact** – Location map, address, and contact details
+
+## 🔧 Installation & Local Development
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Hayat373/kegna-engineering-website.git
+```
+
+2.Navigate to the project folder:
+```bash
+cd kegna-engineering-website
+```
